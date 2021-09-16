@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/api/{name}', [ApiController::class, "searchMakeUp"]);
+Route::get('/api/{brand}', [ApiController::class, "searchMakeUp"]);
